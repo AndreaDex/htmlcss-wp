@@ -21,6 +21,10 @@
     list-style: none;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* header style */
 .logo{
     width: 100%;
@@ -61,19 +65,36 @@ ul.unstyle_list > li > a{
     background-image: url("../img/banner.jpg");
 }
 
+.layover{
+    height: 100%;
+    width: 100%;
+    color: black;    
+}
+
 .banner_text{
     position: absolute;
     bottom: 50px;
 }
 
+.banner_text > h2{
+    font-size: 40px;
+}
+
+.banner_text > span{
+    font-size: 25px;
+}
+
+
 /* main style */
 
 /* main header style */
 .title{
-    height: 50px;
     width: 100%;
-    background-color: green;
+    margin: 25px 0;
+}
 
+.title span{
+    color: lightgray;
 }
 
 /* section style */
