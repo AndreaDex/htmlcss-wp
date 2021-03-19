@@ -101,20 +101,48 @@ ul.unstyle_list > li > a{
 .sb_left, .sb_right{
     width: 25%;
     float: left;
-    background-color: gold;
     border-radius: 10px;
 }
 
-.side.img{
-    width: 300px;
+.side_img{
     height: 300px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-color:rgb(204, 182, 169);
+    border-radius: 10px;
+}
+
+.section_title{
+    margin: 10px 0;
 }
 
 .content{
-    height: 200px;
     width: 45%;
-    background-color: purple;
     float: left;
     border-radius: 10px;
     margin: 0 2.5%;
+}
+
+.central_img{
+    height: 300px;
+    background-image: url(../img/banner-2.jpg);
+    border-radius: 10px;
+    background-position: center;
+}
+
+.sb_right .side_img{
+    background-image: url(../img/img-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* footer style */
+
+.site_footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.site_footer > p > span{
+    color: red;
 }
