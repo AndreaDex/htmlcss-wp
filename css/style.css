@@ -45,13 +45,25 @@ ul.unstyle_list > li > a{
     text-transform: uppercase;
 }
 
-/* presentation style */
+/* Banner style */
 .presentation{
-    height: 300px;
+    position: relative;
+    padding: 5% 5%;
+    color: white;
     width: 100%;
-    background-color: orchid;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(203, 188, 182, 1);
     margin-top: 20px;
     border-radius: 10px;
+    background-image: url("../img/banner.jpg");
+}
+
+.banner_text{
+    position: absolute;
+    bottom: 50px;
 }
 
 /* main style */
