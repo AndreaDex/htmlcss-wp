@@ -70,7 +70,7 @@ ul.unstyle_list > li > a{
 .layover{
     height: 100%;
     width: 100%;
-    background-color:rgba(203, 188, 182, 0.3);  
+    background-color:rgba(203, 188, 182, 0.5);  
     border-radius: 10px;  
 }
 
@@ -78,14 +78,15 @@ ul.unstyle_list > li > a{
     position: absolute;
     bottom: 50px;
     left: 50px;
+    width: 50%;
 }
 
 .banner_text > h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .banner_text > span{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
